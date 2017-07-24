@@ -52,11 +52,11 @@ class App extends Component {
         ) : (
           // Render a helpful message otherwise
           <div>
-            <h1>No passwords :(</h1>
+            <h1>Generate a secure password</h1>
             <button
               className="more"
               onClick={this.getPasswords}>
-                Try again?
+                Generate
               </button>
           </div>
         )}
